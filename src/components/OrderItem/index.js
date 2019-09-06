@@ -33,7 +33,7 @@ export class OrderItem extends Component {
             <div className="orderItem__detail">
               <div className="orderItem__price">{coupon_start_fee}</div>
               {isCommented ? (
-                <button className="orderItem__btn orderItem__btn--gray">
+                <button className="orderItem__btn orderItem__btn--grey">
                   已评价
                 </button>
               ) : (
@@ -70,7 +70,7 @@ export class OrderItem extends Component {
           </button>
         ) : null}
         <button
-          className="orderItem__btn orderItem__btn--gray"
+          className="orderItem__btn orderItem__btn--grey"
           onClick={this.handleCancelComment}
         >
           取消
